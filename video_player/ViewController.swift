@@ -29,7 +29,10 @@ class ViewController: UIViewController {
         
         let PlayerController = AVPlayerViewController()
         PlayerController.player = player
-        
+        present(PlayerController, animated: true) {
+            
+            player.play()
+        }
     }
 
 }
