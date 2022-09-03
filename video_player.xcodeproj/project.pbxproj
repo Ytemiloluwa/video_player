@@ -16,7 +16,7 @@
 		A70D086928C313F30089FFDE /* video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D086828C313F30089FFDE /* video_playerTests.swift */; };
 		A70D087328C313F30089FFDE /* video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D087228C313F30089FFDE /* video_playerUITests.swift */; };
 		A70D087528C313F30089FFDE /* video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D087428C313F30089FFDE /* video_playerUITestsLaunchTests.swift */; };
-		A70D088228C314890089FFDE /*  1 Introduction to the program.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A70D088128C314890089FFDE /*  1 Introduction to the program.mp4 */; };
+		A70D088228C314890089FFDE /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A70D088128C314890089FFDE /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		A70D086E28C313F30089FFDE /* video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70D087228C313F30089FFDE /* video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITests.swift; sourceTree = "<group>"; };
 		A70D087428C313F30089FFDE /* video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A70D088128C314890089FFDE /*  1 Introduction to the program.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = " 1 Introduction to the program.mp4"; sourceTree = "<group>"; };
+		A70D088128C314890089FFDE /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				A70D085128C313F10089FFDE /* AppDelegate.swift */,
 				A70D085328C313F10089FFDE /* SceneDelegate.swift */,
 				A70D085528C313F10089FFDE /* ViewController.swift */,
-				A70D088128C314890089FFDE /*  1 Introduction to the program.mp4 */,
+				A70D088128C314890089FFDE /* test.mp4 */,
 				A70D085728C313F10089FFDE /* Main.storyboard */,
 				A70D085A28C313F30089FFDE /* Assets.xcassets */,
 				A70D085C28C313F30089FFDE /* LaunchScreen.storyboard */,
@@ -234,7 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70D088228C314890089FFDE /*  1 Introduction to the program.mp4 in Resources */,
+				A70D088228C314890089FFDE /* test.mp4 in Resources */,
 				A70D085E28C313F30089FFDE /* LaunchScreen.storyboard in Resources */,
 				A70D085B28C313F30089FFDE /* Assets.xcassets in Resources */,
 				A70D085928C313F10089FFDE /* Main.storyboard in Resources */,

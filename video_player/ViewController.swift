@@ -18,12 +18,12 @@ class ViewController: UIViewController {
     
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(<#T##animated: Bool##Bool#>)
+        super.viewDidAppear(animated)
         
         playVideo()
     }
     private func playVideo() {
-        guard let path = Bundle.main.path(forResource: "Introduction to the program", ofType: "mp4") else { debugPrint("Mp4 not found "); return }
+        guard let path = Bundle.main.path(forResource: "test", ofType: "mp4") else { debugPrint("Mp4 not found "); return }
         
         let player = AVPlayer(url: URL(fileURLWithPath: path))
         
